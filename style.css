@@ -21,7 +21,7 @@
 .btn {
 font-size: 16px;
 font-weight: 600;
-background-color: #30B868;
+background-color: #469165;
 color:white;
 padding: 12.5px 16px;
 border-radius: 4px;
@@ -30,6 +30,8 @@ border: 1px solid black;
 
 .hero {
     background-image: url("./assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -47,7 +49,7 @@ border: 1px solid black;
     background-color: white;
     border-radius: 20px;
     padding: 8px;
-    color:#30B868;
+    color:#469165;
     font-weight: 600;
 
 }
@@ -57,11 +59,12 @@ border: 1px solid black;
     font-weight: 900;
     font-size: 72px;
     line-height: 84px;
+    text-align: center;
 
 }
 
 .hero-contents > h1 > span {
-    color: #30B868;
+    color: #469165;
 }
 
 .hero-contents > p {
@@ -103,6 +106,7 @@ border: 1px solid black;
 .note-section {
     text-align: center;
     margin-top: 36px;
+    margin-bottom: 36px;
 }
 .note-section > div > h2 {
     font-size: 48px;
@@ -159,7 +163,7 @@ border: 1px solid black;
 }
 
 .knowledge-section  span {
-color: #30B868;
+color: #469165;
 text-transform: uppercase;
 }
 
@@ -190,4 +194,12 @@ text-transform: uppercase;
     justify-items: center;
     align-items: center;
     gap:6px;
+}
+.think-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #F7F6F2;
+    height: 380px;
+    align-items: center;
 }
