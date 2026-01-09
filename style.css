@@ -75,3 +75,25 @@ border: 1px solid black;
     display: flex; 
     gap: 16px
 }
+
+.hero-buttons > button {
+    padding: 16px;
+}
+
+.btn-primary {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap:10px; 
+}
+
+.btn-secondary {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap:10px; 
+    background-color: transparent;
+    border:1px solid white;
+    color: white;
+    border-radius: 4px;
+}
