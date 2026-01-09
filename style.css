@@ -209,4 +209,16 @@ text-transform: uppercase;
     background-color: #F7F6F2;
     height: 380px;
     align-items: center;
+
+}.note {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #6b7280; /* light gray */
+}
+
+.note .dot {
+  font-size: 18px;
+  line-height: 1;
 }
