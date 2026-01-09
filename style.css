@@ -18,6 +18,12 @@
 
 } 
 
+button:hover {
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}
+
 .btn {
 font-size: 16px;
 font-weight: 600;
@@ -196,6 +202,7 @@ text-transform: uppercase;
     gap:6px;
 }
 .think-section {
+    margin-top: 36px;
     display: flex;
     justify-content: center;
     text-align: center;
